@@ -30,7 +30,7 @@ A key aspect of formulating a robust evaluation is creating an out-of-sample dat
 
 In this work, we evaluate various detection methods, focusing on zero-shot and supervised approaches. A state-of-the-art model in open-source AI detection is **Binoculars** [[2]](#reference-2), a perplexity-based method that leverages two large language models (LLMs). We also assessed **Zippy** [[5]](#reference-5), an open-source, compression-based zero-shot method with conceptual similarities to perplexity-based techniques. Additionally, we explored several data-driven or supervised detection methods, including the use of embeddings from **UAR** [[4]](#reference-4) to construct a nearest neighbor model with open-source data. These methods were selected for their commercial-friendly licenses and computational efficiency. Consequently, certain popular methods, such as **RADAR** [[7]](#reference-7), **Ghostbuster** [[8]](#reference-8), and **DetectGPT** [[9]](#reference-9), were excluded from the comparison.
 
-Furthermore, We fine-tuned a **RoBERTa** [[3]](#reference-3) classifier, which serves as a component of the APOLLO ensemble. The model has been made publicly available on [Hugging Face](https://huggingface.co/fakespotailabs/roberta-base-ai-text-detection-v1) under the Apache-2.0 license.
+Furthermore, We fine-tuned a **RoBERTa** [[3]](#reference-3) classifier, which serves as a component of the APOLLO ensemble. The model has been made publicly available on [Hugging Face](https://huggingface.co/fakespot-ai/roberta-base-ai-text-detection-v1) under the Apache-2.0 license.
 
 # Performance
 
